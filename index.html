@@ -1,180 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="act2/calculator.js" defer></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<title>Калькулятор</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  	<link href="README.js" rel="stylesheet" type="text/css">
 </head>
-<body class="osnova">
-    <header class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="col-md-8" id="shapka">
-            <div><img src="york.jpg" alt="Логотип компании" id="logoimg"></div>
-            <div><p>WEB Project</p></div>
-        </div>
-    </header> 
-    <div class="row" id="navigation">
-            <div class="col-md-4"><a href="#start">Основное </a></div>
-            <div class="col-md-4"><a href="#form">Форма</a></div>
-            <div class="col-md-4"><a href="#table">Таблица</a></div>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-8" id="web1" >
-    <h2><a id="start">Задание 1 </a></h2>
-    <ol id="task_list">
-        <li><a href="http://example.com">1 ссылка</a></li><!--1 пункт-->
-        <li><a href="https://example.com">2 ссылка</a></li><!--2 пункт-->
-        <li><a href="ftp://ftp.rabota.ru/ucheniki/klass.txt"> 3 ссылка</a></li><!--3 пункт-->
-        <li><a href="ftp://test:password@ftp.rabota.ru/ucheniki/klass.txt">4 ссылка </a></li><!--4 пункт-->
-        <li><a href="#end">Концовка фильма</a></li><!--5 пункт-->
-        <li><a href="text.html#bottom">6 пункт</a></li> <!--6 пункт--> 
-        <li><a href="https://www.exmpale/test/?id=681a4d&webmap=9cf0010">7 пункт</a></li><!--7 пункт-->
-        <li> Навигация
-            <nav>
-                <ul>
-                    <li><a href="#start">Основное</a></li>
-                    <li><a href="#form">Форма</a></li>
-                </ul>
-            </nav>
-        </li>
-        <li><p><a>9 ссылка</a></p></li><!--9 пункт-->
-        <li><a href="">10 ссылка</a></li><!--10 пункт-->
-        <li><a href="https://example.com/" rel="nofollow">11 ссылка</a></li><!--11 пункт-->
-        <li><a href="https://example.com/" rel="noindex">12 ссылка</a></li><!--12 пункт-->
-        <li>«Джон Уик» (англ. John Wick) — американский боевик 2015 года, ставший режиссёрским дебютом Чада Стахелски и
-        Дэвида Литча. Главные роли исполнили Киану Ривз, который также выступил в качестве исполнительного
-        продюсера, и Микаэль Нюквист. Премьера фильма состоялась 13 октября 2014 года в <a href="https://ru.wikipedia.org/wiki/Нью-Йорк">Нью-Йорке.</a><!--13 пункт-->
-        В прокат США фильм вышел 24 октября 2014 года, в России — 1 января 2015 года.
-        <p><a id="end">Перкинс узнаёт, что Маркус помогал Джону, и рассказывает об этом Вигго. Вигго пытает и убивает Маркуса, 
-            сообщая об этом Джону. Перкинс приезжает на встречу к Уинстону, где у неё отзывают членство в клубе 
-            «Континенталь» за нарушение правил поведения в отеле и казнят. После этого Уинстон сообщает Джону о 
-            местонахождении Вигго. Происходит схватка между Джоном и Вигго, в которой оба тяжело ранят друг друга. 
-            Оставив умирающего Вигго, Джон добирается до ветеринарной клиники и зашивает рану, попутно забрав оттуда 
-            щенка питбуля. После этого он уходит.</a></p>  
-        </li>  
-        <li><img src="york.jpg" alt="New York"></li><!--14 пункт-->
-        <li>
-            <img src="york.jpg" usemap="#nado" alt="New York">
-            <map name="nado"><!--15-->
-                <area shape="circle" coords="0,0,10" href="https://www.google.com" alt="Круг">
-                <area shape="rect"  coords="100,100,110,110" href="https://yandex.ru" alt="ОПрямоугольник">
-            </map>
-        </li>
-        <li><a href="index2.html">16 ссылка</a></li> <!--16 пункт-->
-        <li><a href="about/index2.html"> 17 ссылка</a></li> <!--17 пункт-->
-        <li><a href="../index2.html">18 ссылка </a></li><!--18 пункт-->
-        <li><a href="../../index2.html">19 ссылка</a></li><!--19 пункт-->
-        <li><a href="/">20 ссылка </a></li>   
-        <li><a href="/about">21 ссылка</a></li> 
-    </ol>
-    </div>
-    <div id="tandf">
-    <div class="table">
-        <h2 id="table">Таблица</h2>
-        <table>
-            <tr>
-                <th>Номер 1</th>
-                <th>Номер 2</th>
-                <th>Номер 3</th>
-            </tr>
-            <tr >
-                <td>Первое место</td>
-                <td colspan="2">Вторе место</td>
-            </tr>
-            <tr class="nech">
-                <td>Третье место</td>
-                <td>Четвертое место </td>
-                <td>Пятое место </td>
-            </tr>
-        </table>
-    </div>
-    <div class="form">
-    <h2>Форма </h2>
-    <form action="/" id="form">
-        <label>Имя <br>
-            <input  value="Денис">
-        </label> <br>
-        <label>
-            E-mail <br>
-            <input type="email" value="example@mail.ru">
-        </label> <br>
-        <label>
-            Дата рождения <br>
-            <input type="date" value="2002-05-14">
-        </label> <br>
-        <label>
-            Ваш пол <br>
-            <input type="radio" name="chek" checked="checked">Мужской <br>
-        </label>
-        <label>
-            <input type="radio" name="chek">Женский <br>
-        </label><br>
-        <label>
-            Количество конечностей <br>
-            <input type="radio" checked="checked" name="brr">1
-        </label>
-        <label>
-            <input type="radio" name="brr">2
-        </label>
-        <label>
-            <input type="radio" name="brr"> Более 2
-        </label> <br>
-        <label>
-            Сверхспособности <br>
-            <select multiple="multiple">
-                <option value="Знач1">Бессмертие</option>
-                <option value="Знач2" selected="selected">Прохождение сквозь стены</option>
-                <option value="Знач3" selected="selected">Левитация </option>
-            </select>
-        </label> <br>
-        <label>
-            Биография <br>
-            <textarea name="bio">Напишите о себе </textarea>
-        </label><br>
-        <label>
-            С контрактом ознакомлен(а) 
-            <input type="checkbox" name="udo">
-        </label><br>
-        <input type="submit" value="Отправить">
-    </form> 
-    </div> 
-</div>
-      <div class="col-xs-12 col-sm-6 col-md-6" id="calc">
-        <h2 class="text-center">Калькулятор</h2>
-        Тип товара:
-        <form>
-            <input type="text" name ="number" placeholder="Количество">
-            <select name="prodType">
-                <option value="0">Напитки</option>
-                <option value="1">Десерты</option>
-                <option value="2">Фастфуд</option>
-            </select>
-
+<body>
+	<div class="container-fluid ">
+	<div class="row d-flex ">
+		<form name="form">
+			<h4>Выберите товар:</h4>
+			<div class="item">
+				<input type="text" id="kol" oninput="updatePrice()" placeholder="Количество товара: "/>
+					<select name="prodType">
+						<option value="1">Пуговицы</option>
+						<option value="2">Шуба</option>
+						<option value="3">Мех</option>
+					</select>
+			</div>
+			<div id="checkboxes">
+				<label><input type="checkbox" name="prop1"> Кролик</label>
+				<label><input type="checkbox" name="prop2"> Песец</label>
+				<label><input type="checkbox" name="prop3"> Соболь</label>
+            </div>
             <div id="radios">
-                <label><input type="radio" name="prodOptions" value="option1"> Газированная </label>
-                <label><input type="radio" name="prodOptions" value="option2"> Без сахара </label>
-                <label><input type="radio" name="prodOptions" value="option3"> Без красителя </label>
-            </div>
-            <div id="checkboxes">
-                <label><input type="checkbox" name="prop1"> Бургер </label>
-                <label><input type="checkbox" name="prop2"> Картошечка </label>
-                <label><input type="checkbox" name="prop3"> Пицца </label>
-            </div>
-            <button id ="butt" onclick="return calcu();"> Подтвердить </button>
-            <div id="prodPrice"></div>
-        </form><hr>
-        <div id="result"> </div>
-    </div>
-</div>
-    <footer class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        Copyright Pandas Denis
-    </footer>
-</body>
+                <label><input type="radio" name="prodOptions" value="option1"> Искусственный</label>
+                <label><input type="radio" name="prodOptions" value="option2"> Коротшерстный</label>
+                <label><input type="radio" name="prodOptions" value="option3"> Натуральный</label>
+	       </div>
+			<h4>Стоимость заказа:</h4>
+			<div class="text-body" id="prodPrice"></div>
+	    </form>
+		</div>
+	</div>
+	<script src="README.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+	</body>
 </html>
