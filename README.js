@@ -47,16 +47,16 @@ function updatePrice() {
 }
 function getPrices() {
   return {
-    prodTypes: [1000, 50000, 25000],
+    prodTypes: [15, 150, 200],
 size: {
-option1: 2000,
-option2: 4500,
-option3: 8000,
+option1: 155,
+option2: 170,
+option3: 200,
     },
     prodProperties: {
-      prop1: 1500,
-      prop2: 4000,
-      prop3: 10000,
+      prop1: 130,
+      prop2: 140,
+      prop3: 165,
     }
   };
 }
