@@ -1,154 +1,23 @@
-@media (min-width: 280px) and (max-width: 426px){
-    #navigation .col-md-4 {
-        text-align: left;
-        font-size: 35px;
-    }
-    .osnova {
-        display: flex;
-        flex: 1 1 auto;
-        flex-direction: column;
-    }
-    .osnova, nav {
-        font-size: 35px;
-    }
-    nav {
-        padding: 0 0 0;
-    }
-    header {
-        width: 960px;
-        font-size: 50px;
-    }
-    
-    footer {
-        width: 960px;
-    }
-    #tandf{
-        display: flex;
-        flex-direction: column;
-    }
-    .table {
-        order: 2;
-    }
-    .form{
-        order: 1;
-    }
-}
-@media (min-width: 1000px){
-    nav{
-        padding: 0px 30px 5px;
-    }
-    header {
-        font-size: 50px;
-    }
-    #navigation .col-md-4 {
-        text-align: center;
-        font-size: 35px;
-    }
-}
-
-header {
-    height: 150px;
-}
-#shapka { 
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0px auto;
-    
-}
-#shapka p {
-    font-family: Courier, monospace;
-    font-weight: bold;
-    color: white;
-    letter-spacing: 4px;
-}
-
-#shapka img {
-        width: 120px;
-        height: 120px;
-    }
-
-#navigation {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 0 5px;
-}
-
-#navigation ul li {
-    padding: 0px 50px 5px;
-    font-size: 40px;
-}
-#navigation nav ul {
-    list-style: none;
-}
 body {
-    font-family: Courier, monospace;
-    font-size: 20px;
-    color: rgb(92, 85, 85);
-    background-image: url(new.jpg);
-    background-attachment: fixed;
-    font-weight: bold;
-}
-#web1 {
-    width: 955px;
-    color: rgb(92, 85, 85);
-    margin: 20px auto;
-    padding: 0px 5px;
-}
-#web1 img{
-    width: 100px;
-    height: 100px;
+  font-family: sans-serif;
+  margin: auto;
+  max-width: 1280px;
 }
 
-#task_list{
-    margin: 0 30px;
-} 
+.navbar {
+  background-color: #313236;
+  border-radius: 2px;
+  max-width: 800px;
+}
 
-.table {
-    padding: 0px 5px 5px;
+.navbar a {
+  color: #aaa;
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
 }
-.form {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    padding: 0px 5px 5px;
-}
-footer {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    padding: 0px 5px 5px;
-}
-.form, .table, #navigation, #calc {
-    width: 955px;
-    margin-left: auto;
-    margin-right: auto;
-}
-a{
-    text-decoration: none;
-    color: rgb(92, 85, 85);
-    transition: text-decoration 0,5s ease-in;
-}
-a:hover{
-    text-decoration: underline;
-}
-.nech td, th{
-    color: white;
-    background-color: grey;
-}
-#menu {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(254, 214, 188);
-    border-width: thick;
-    border-style: double;
-    border-color: grey;
-    border-image: initial;
-    width: 955px;
-}
-header, #navigation, #web1, .table, .form, footer, #calc{
-    background-color: #A5A5A5;
-    border-width: thick;
-    border-style: double;
-    border-color: grey;
-    border-image: initial;
+
+.navbar a:hover {
+  color: #ffffff;
 }
