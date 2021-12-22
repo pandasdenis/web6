@@ -12,7 +12,7 @@ function onClick1() {
     let f2 = document.getElementsByName("field2");
     let r = document.getElementById("result");
     r.innerHTML = None;
-    f1.innerHTML = None;
-    f2.innerHTML = None;
+    f1[0].value = "";
+    f2[0].value = "";
     return false;
   }
