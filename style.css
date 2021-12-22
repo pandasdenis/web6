@@ -18,10 +18,7 @@
         width: 960px;
         font-size: 50px;
     }
-    #shapka img {
-        width: 30vw;
-        height: 30vw;
-    }
+    
     footer {
         width: 960px;
     }
@@ -66,6 +63,11 @@ header {
     color: white;
     letter-spacing: 4px;
 }
+
+#shapka img {
+        width: 120px;
+        height: 120px;
+    }
 
 #navigation {
     margin-top: 30px;
