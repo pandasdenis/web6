@@ -146,7 +146,7 @@ a:hover{
     width: 955px;
 }
 header, #navigation, #web1, .table, .form, footer, #calc{
-    background-color: rgb(254, 214, 188);
+    background-color: #A5A5A5;
     border-width: thick;
     border-style: double;
     border-color: grey;
